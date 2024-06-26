@@ -1,0 +1,53 @@
+.contact {
+    background: linear-gradient(90.21deg, rgba(100, 75, 213, 0.5) -5.91%, rgba(233, 96, 178, 0.5) 111.58%);
+    padding: 60px 0 200px 0;
+  }
+  
+  .contact img {
+    width: 72%;
+    /* animation: zoomInOut 3s ease-in-out infinite, updown 3s linear infinite; */
+    animation: zoomInOutUpDown 4s infinite;
+    /* border-radius: 15%; */
+  }
+  
+  .form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+  @keyframes zoomInOutUpDown {
+    0%, 100% {
+      transform: scale(1) translateY(0);
+    }
+    50% {
+      transform: scale(1.2) translateY(-20px);
+    }
+  }
+
+  /* @keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
+  
+  @keyframes updown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  } */
+  
+  .contact h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  
+  

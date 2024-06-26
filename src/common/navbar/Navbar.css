@@ -1,0 +1,153 @@
+/* .navbar {
+    background-color: #2d3748; 
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 16px;
+}
+
+.navbar .max-w-7xl {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    padding: 4px;
+}
+
+.navbar nav a {
+    transition: transform 0.3s, background-color 0.3s;
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar nav a:hover {
+    transform: scale(1.1);
+}
+
+.navbar nav a.active {
+    background-color: white;
+    color: black; 
+}
+
+#mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: #2d3748; 
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    transform-origin: top;
+    animation: open-menu 0.5s ease-in-out forwards;
+}
+
+#mobile-menu .text-8xl {
+    font-size: 8rem;
+}
+
+#mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    padding: 32px;
+}
+
+#mobile-menu nav a {
+    width: 100%;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+@keyframes open-menu {
+    from {
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+} */
+
+/* Media query to handle menu display on different screen sizes */
+/* @media (min-width: 768px) {
+    #mobile-menu {
+        display: none;
+    }
+    
+    .navbar nav {
+        display: flex;
+        gap: 32px;
+    }
+    
+    .navbar .md\\:block {
+        display: block;
+    }
+    
+    .navbar .md\\:hidden {
+        display: none;
+    }
+} */
+
+
+.navbar a[href='/cart'] span {
+    position: absolute;
+    top: -30px;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e64c4c;
+    text-align: center;
+    line-height: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+.navbar nav a, i {
+    transition: transform 0.3s, background-color 0.3s;
+    display: inline-block;
+}
+
+.navbar nav a:hover {
+    transform: scale(1.1);
+}
+
+.navbar nav i:hover {
+    transform: scale(1.1);
+}
+
+.navbar nav a.active {
+    color: rgb(239, 41, 245); 
+}
+.navbar nav i.active {
+    background-color: rgb(249, 86, 224);
+    color: rgb(239, 41, 245); 
+}
+
+/* ====== MEDIA QUERY ====== */
+@media (max-width: 768px) {
+    .navbar a[href='/cart'] span {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        left: -40px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #e64c4c;
+        text-align: center;
+        line-height: 4px;
+        font-size: 12px;
+        color: #fff;
+    }
+}
+
+

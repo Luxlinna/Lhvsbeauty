@@ -1,0 +1,31 @@
+.product-details {
+    gap: 1.25rem;
+}
+.product-details .container .img img {
+    width: 25rem;
+    height: 30rem;
+    border: 1px solid gray;
+}
+
+@media screen and (max-width: 768px) {
+    .product-details {
+        flex-direction: row;
+    }
+    .product-details .container .flex button {
+        font-size: 12px;
+        text-wrap: nowrap;
+    }
+    .product-details .container .img img {
+        width: 15rem;
+        height: 20rem;
+        border: 1px solid gray;
+    }
+}
+
+.product-details .img img {
+    border-radius: 0.5rem;
+}
+
+button {
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,98 @@
+  .shop .category {
+    padding: 30px;
+    height: 90vh;
+  }
+   .shop .catehead h1 {
+    font-size: 20px;
+    margin-bottom: 20px; 
+    padding-right: 50px;
+  }
+  .shop .catehead h1:nth-child(2) {
+    opacity: 0.5;
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
+    padding-left: 50px;
+  }
+  .shop .category .box {
+    margin: 15px 0;
+    padding: 5px 5px;
+    transition: 0.5s;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .catehead .discounts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ef4560;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 50px;
+    color: #fff;
+  }
+
+  .shop .category .box:hover {
+    background-color: #fff;
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  }
+  .shop .box2 {
+    margin-top: 100px !important;
+    text-align: center;
+  }
+  .shop .category button {
+    padding: 10px;
+    background: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .shop .contentWidth {
+    margin-left: 30px;
+  }
+  
+  .shop .product img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin: 2.7rem;
+    border-radius: 5px;
+  }
+  .shop .product {
+    transition: 0.5s;
+  }
+  .shop .product:hover {
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .shop .category {
+        display: none;
+    }
+
+    /* Adjust space and size for mini iPad */
+    .shop .container {
+        padding: 0.1rem;
+        justify-content: center;
+    }
+
+    .shop .contentWidth {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .shop .product img {
+      width: 150px;
+      height: 150px;
+      padding: 2px;
+      align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+  .shop .product img {
+    width: 10rem;
+    height: 10rem;
+    margin: 0;
+  }
+}

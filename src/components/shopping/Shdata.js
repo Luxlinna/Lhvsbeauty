@@ -1,0 +1,247 @@
+const Shdata = {
+  shopItems: [
+    {
+      id: 1,
+      cover: require("../../images/shops/shop-1.png"),
+      name: "Skincare",
+      price: "180",
+      discount: "25",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 2,
+      cover: require("../../images/shops/shop-2.png"),
+      name: "Skincare",
+      price: "120",
+      discount: "10",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 3,
+      cover: require("../../images/shops/shop-3.png"),
+      name: "Skincare",
+      price: "200",
+      discount: "50 ",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 4,
+      cover: require("../../images/shops/shop-4.png"),
+      name: "Skincare",
+      price: "199",
+      discount: "10 ",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 5,
+      cover: require("../../images/shops/shop-5.png"),
+      name: "Skincare",
+      price: "180",
+      discount: "20 ",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 6,
+      cover: require("../../images/shops/shop-6.png"),
+      name: "Skincare",
+      price: "400",
+      discount: "20 ",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 7,
+      cover: require("../../images/shops/shop-7.png"),
+      name: "Skincare",
+      price: "160",
+      discount: "5 ",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 8,
+      cover: require("../../images/shops/shop-8.png"),
+      name: "Skincare",
+      price: "120",
+      discount: "10",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 9,
+      cover: require("../../images/shops/shop-9.png"),
+      name: "Skincare",
+      price: "115",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 10,
+      cover: require("../../images/shops/shop-10.png"),
+      name: "Skincare",
+      price: "125",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 11,
+      cover: require("../../images/shops/shop-11.png"),
+      name: "Skincare",
+      price: "135",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 12,
+      cover: require("../../images/shops/shop-12.png"),
+      name: "Skincare",
+      price: "145",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 13,
+      cover: require("../../images/shops/shop-13.png"),
+      name: "Skincare",
+      price: "155",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 14,
+      cover: require("../../images/shops/shop-14.png"),
+      name: "Skincare",
+      price: "155",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 15,
+      cover: require("../../images/shops/shop-15.png"),
+      name: "Skincare",
+      price: "165",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 16,
+      cover: require("../../images/shops/shop-16.png"),
+      name: "Skincare",
+      price: "175",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 17,
+      cover: require("../../images/shops/shop-17.png"),
+      name: "Skincare",
+      price: "185",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 18,
+      cover: require("../../images/shops/shop-18.png"),
+      name: "Skincare",
+      price: "195",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 19,
+      cover: require("../../images/shops/shop-19.png"),
+      name: "Skincare",
+      price: "205",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 20,
+      cover: require("../../images/shops/shop-20.png"),
+      name: "Skincare",
+      price: "215",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 21,
+      cover: require("../../images/shops/shop-21.png"),
+      name: "Skincare",
+      price: "225",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+    {
+      id: 22,
+      cover: require("../../images/shops/shop-22.png"),
+      name: "Skincare",
+      price: "235",
+      discount: "2",
+      description:
+        "This is the description of the product and how effective of the ingredients for skin type.",
+      capacity: "500g",
+      rating: "4.5",
+    },
+  ],
+};
+export default Shdata;

@@ -1,0 +1,52 @@
+.user {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90.21deg, rgba(100, 75, 213, 0.5) -5.91%, rgba(233, 96, 178, 0.5) 111.58%);
+}
+.user h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: -10rem;
+}
+.user .form {
+    background: rgba(128, 119, 227, 0.5);
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.user .form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.user .water-animation {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.user .water-animation1 {
+    position: relative;
+    bottom: 0;
+    margin-top: -25rem;
+    margin-right: -65rem;
+    z-index: -1;
+}
+
+
+@media (max-width: 768px) {
+    .user {
+        height: 100vh;
+        flex-direction: column;
+    }
+    .user .container {
+        max-width: 100%;
+   }
+   .user .water-animation1 {
+        display: none;
+    }
+    .user .water-animation {
+        margin-top: 30rem;
+        z-index: 0;
+    }
+}

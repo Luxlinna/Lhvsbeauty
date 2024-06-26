@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .home img {
+        width: 100%;
+        height: fit-content;
+    }
+    .home button {
+        width: 90%;
+        font-size: 0.8rem;
+        margin: 0.8rem;
+        padding: 0.5rem;
+    }
+}
