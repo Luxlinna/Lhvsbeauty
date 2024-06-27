@@ -3,6 +3,7 @@ Website hosting on Netlify:
 **https://lhvsbeauty.netlify.app**
 
 # Getting Started with Create React App
+Github repository: https://github.com/Luxlinna/lhvsbeauty.git
 
 1. npm install
 2. npm start
